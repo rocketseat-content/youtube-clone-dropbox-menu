@@ -31,10 +31,10 @@ export const Container = styled.div`
   &:first-child {
     --padding-top: 130px;
     --heading-font-size: 51px;
-    --content-width: 50%;
 
     @media (min-width: 1024px) {
       --heading-font-size: 71px;
+      --content-width: 50%;
     }
   }
 
