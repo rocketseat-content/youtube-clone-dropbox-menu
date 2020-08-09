@@ -2,7 +2,13 @@ import React from 'react';
 
 // import { Container } from './styles';
 
-const Section: React.FC = () => {
+interface Props {
+  variant: 'blue' | 'beige' | 'white' | 'black';
+  title: string;
+  description: string;
+}
+
+const Section: React.FC<Props> = () => {
   return <div />;
 };
 
