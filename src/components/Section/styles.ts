@@ -50,6 +50,7 @@ export const HeaderWrapper = styled.div`
   right: 0;
 
   background: var(--bg-color);
+  clip: rect(auto, auto, auto, auto);
 `;
 
 export const Header = styled.header`
