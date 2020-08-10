@@ -40,6 +40,8 @@ export const Navigation = styled.nav`
   }
 
   @media (min-width: 1024px) {
+    justify-content: flex-end;
+
     > h1 {
       display: none;
     }
